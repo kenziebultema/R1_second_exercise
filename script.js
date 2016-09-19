@@ -1,16 +1,18 @@
 function SetContent(){
     // alert("start here.");
-    console.log('works');
+    var firstName = GetPersonalizationContent('FirstName');
+    var lastName = GetPersonalizationContent('LastName');
+    var company = GetPersonalizationContent('Company');
+    var title = GetPersonalizationContent('Title');
+    var country = GetPersonalizationContent('Country');
+    var state = GetPersonalizationContent('State');
 
-    
-
-    $('#firstName').val();
-    $('#lastName').val();
-    $('#company').val();
-    $('#title').val();
-    $('#country').val();
-    $('#state').val();
-    $('#comment').val();
+    $('#firstName').val(firstName);
+    $('#lastName').val(lastName);
+    $('#company').val(company);
+    $('#title').val(title);
+    $('#country').val(country);
+    $('#state').val(state);
 }
 
 
