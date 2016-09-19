@@ -1,0 +1,17 @@
+.container {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.banner-image {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.submit-button {
+    margin-top: 10px;
+}
+
+.displayed-data {
+    margin-top: 15px;
+}
